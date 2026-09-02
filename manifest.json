@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Tab Playlist Sorter",
+  "version": "3.4.0",
+  "description": "Создает плейлист из выделенных вкладок YouTube в Zen Browser и сортирует их по длительности.",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Плейлист из выделенных вкладок",
+    "default_icon": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yt-tab-playlist-sorter@zenbrowser.local"
+    }
+  }
+}
