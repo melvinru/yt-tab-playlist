@@ -4,7 +4,8 @@
 
 ![Zen Browser](https://img.shields.io/badge/Browser-Zen%20%2F%20Firefox-orange?style=flat-square)
 ![Manifest](https://img.shields.io/badge/Manifest-V3-blue?style=flat-square)
-![Platform](https://img.shields.io/badge/Platform-YouTube%20InnerTube%20API-red?style=flat-square)
+![Release](https://img.shields.io/badge/Release-v3.4.0-brightgreen?style=flat-square)
+[![Download XPI](https://img.shields.io/badge/Download-yt--tab--playlist.xpi-blueviolet?style=flat-square)](https://github.com/melvinru/yt-tab-playlist/releases/download/v3.4.0/yt-tab-playlist.xpi)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 ---
